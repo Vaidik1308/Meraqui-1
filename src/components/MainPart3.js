@@ -16,40 +16,40 @@ const MainPart3 = () => {
       <section className='flex flex-col w-full mt-6 rounded sm:h-[32vh] shadow-md pb-8'>
         <div className='flex flex-col w-full sm:flex-row sm:justify-center sm:text-left sm:h-[32vh]'>
           <div className='w-full flex justify-center sm:w-[37%] sm:h-[25vh]  sm:inline sm:mr-8 sm:ml-4'>
-            <div style={{backgroundImage:"url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)"}} className=' bg-cover bg-center w-[65%] h-[25vh] bg-black sm:h-[30vh] sm:w-[100%]  sm:mt-2 '></div>
+            <div style={{ backgroundImage: "url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)" }} className=' bg-cover bg-center w-[65%] h-[25vh] bg-black sm:h-[30vh] sm:w-[100%]  sm:mt-2 '></div>
           </div>
           <div className='w-full flex flex-col justify-center sm:w-[80%] sm:h-[30vh]  mt-4 sm:text-left'>
             <h2 className='text-2xl sm:text-3xl'>IBM Power</h2>
             <div className='flex justify-center w-full mt-2'>
               <p className='text-[0.6rem] w-[60%] sm:w-[100%] sm:mr-8 sm:text-[0.9rem] sm:leading-8 '>
-              A recent blinded internal survey of IBM Power client CIOs, CTOs, IT directors, IT admins and developers tells us that their top business strategies revolve around improving business processes in real-time—using technology in more innovative ways
+                A recent blinded internal survey of IBM Power client CIOs, CTOs, IT directors, IT admins and developers tells us that their top business strategies revolve around improving business processes in real-time—using technology in more innovative ways
               </p>
             </div>
             <div className='w-full sm:text-right sm:w-[94%] sm:mt-8'>
-              <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem]' href="#">Read more</a>
+              <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem]' href="#main">Read more</a>
             </div>
           </div>
         </div>
-        
+
       </section>
       <section className='flex flex-col w-full mt-6 rounded sm:h-[32vh] shadow-md pb-8'>
         <div className='flex flex-col w-full sm:flex-row sm:justify-center sm:text-left sm:h-[32vh]'>
           <div className='w-full flex justify-center sm:w-[37%] sm:h-[25vh]  sm:inline sm:mr-8 sm:ml-4'>
-            <div style={{backgroundImage:"url(https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)"}} className=' bg-cover bg-center w-[65%] h-[25vh] bg-black sm:h-[30vh] sm:w-[100%]  sm:mt-2 '></div>
+            <div style={{ backgroundImage: "url(https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)" }} className=' bg-cover bg-center w-[65%] h-[25vh] bg-black sm:h-[30vh] sm:w-[100%]  sm:mt-2 '></div>
           </div>
           <div className='w-full flex flex-col justify-center sm:w-[80%] sm:h-[30vh]  mt-4 sm:text-left'>
             <h2 className='text-2xl sm:text-3xl'>6G Technology</h2>
             <div className='flex justify-center w-full mt-2'>
               <p className='text-[0.6rem] w-[60%] sm:w-[100%] sm:mr-8 sm:text-[0.9rem] sm:leading-8 '>
-              Designing a new generation mobile system is a very complicated engineering task involving thousands of researchers and developers. Their creativity comes up with novel concepts and they work on designing
+                Designing a new generation mobile system is a very complicated engineering task involving thousands of researchers and developers. Their creativity comes up with novel concepts and they work on designing
               </p>
             </div>
             <div className='w-full sm:text-right sm:w-[94%] sm:mt-8'>
-              <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem]' href="#">Read more</a>
+              <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem]' href="#main">Read more</a>
             </div>
           </div>
         </div>
-        
+
       </section>
       {/* <section className='flex flex-col w-full mt-6 rounded sm:h-[32vh] shadow-md pb-8'>
         <div className='flex flex-col w-full sm:flex-row sm:justify-center sm:text-left sm:h-[32vh]'>
@@ -86,8 +86,8 @@ const MainPart3 = () => {
               <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem]' href="#">Read more</a>
             </div>
           </div> */}
-        {/* </div> */}
-        
+      {/* </div> */}
+
       {/* </section> */}
       <section className='h-[45vh] w-full mb-10 flex flex-col justify-evenly sm:my-32'>
         <div className='w-full sm:flex sm:flex-row'>
@@ -108,12 +108,12 @@ const MainPart3 = () => {
               </p>
             </div>
             <div className='w-full mt-7 sm:flex sm:justify-start'>
-              <input 
-                type="email" 
+              <input
+                type="email"
                 name=""
-                placeholder='eg. xyz123@gmail.com' 
-                id="" 
-                className=' border-b-[1px] outline-none border-black  sm:w-[95%] sm:text-[1.2rem]' 
+                placeholder='eg. xyz123@gmail.com'
+                id=""
+                className=' border-b-[1px] outline-none border-black  sm:w-[95%] sm:text-[1.2rem]'
               />
             </div>
           </div>

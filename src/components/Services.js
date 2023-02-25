@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Services = () => {
   return (
@@ -35,8 +36,8 @@ const Services = () => {
               provides dependable temporary staffing solutions that allow you to increase your staff strength without taking on full-time personnel, support overburdened employees at important moments, and keep projects going.
               </p>
             </div>
-            <div className='w-full text-left mt-4 sm:mt-20'>
-              <button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button>
+            <div className='w-[100%] text-left mt-4 sm:mt-20'>
+              <Link to="/services/tempStaff" className='sm:w-[65%%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'><button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button></Link>
             </div>
           </div>
           <div className='mt-4 sm:w-[60%] sm:relative sm:right-[-10%]'>
@@ -44,12 +45,12 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className='w-[95%] mx-auto mt-6 sm:mt-24'>
+      <section className='w-[95%] mx-auto mt-16 sm:mt-24  '>
         
         <div className='w-full sm:flex sm:flex-row-reverse sm:justify-center sm:w-[90%] sm:mx-auto'>
           <div className='w-full mt-4 sm:w-[45%] sm:flex-col sm:flex sm:justify-center'>
             <div className='w-full text-left'>
-              <h3 className='text-2xl sm:text-right'>Permanent staffing</h3>
+              <h3 className='text-2xl sm:text-3xl sm:text-right'>Permanent staffing</h3>
             </div>
             <div className='w-full mt-2'>
               <p className='text-left sm:text-right'>
@@ -57,7 +58,7 @@ const Services = () => {
               </p>
             </div>
             <div className='w-full text-left mt-4 sm:text-right '>
-              <button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button>
+              <Link to="/services/permStaffing" className='sm:w-[65%%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'><button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button></Link>
             </div>
           </div>
           <div className='mt-4 sm:w-[55%] sm:relative sm:left-[-10%]'>
@@ -65,7 +66,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className='w-[95%] mx-auto mt-6 sm:mt-24'>
+      <section className='w-[95%] mx-auto mt-16 sm:mt-24'>
         
         <div className='sm:flex sm:flex-row sm:w-[93%] sm:mx-auto'>
             <div className='w-full mt-4 sm:w-[60%] sm:flex sm:flex-col sm:justify-center'>
@@ -78,7 +79,7 @@ const Services = () => {
                 </p>
               </div>
               <div className='w-full text-left mt-4 sm:mt-20'>
-                <button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button>
+                <Link to="/services/neemNaps" className='sm:w-[65%%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'><button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button></Link>
               </div>
             </div>
             <div className='mt-4 sm:w-[60%] sm:relative sm:right-[-10%]'>
@@ -86,12 +87,12 @@ const Services = () => {
             </div>
           </div>
       </section>
-      <section className='w-[95%] mx-auto mt-6 sm:mt-24'>
+      <section className='w-[95%] mx-auto mt-16 sm:mt-24'>
         
       <div className='w-full sm:flex sm:flex-row-reverse sm:justify-center sm:w-[90%] sm:mx-auto'>
           <div className='w-full mt-4 sm:w-[45%] sm:flex-col sm:flex sm:justify-center'>
             <div className='w-full text-left'>
-              <h3 className='text-2xl sm:text-right'>3PL Warehousing</h3>
+              <h3 className='text-2xl sm:text-3xl sm:text-right'>3PL Warehousing</h3>
             </div>
             <div className='w-full mt-2'>
               <p className='text-left sm:text-right'>
@@ -99,7 +100,7 @@ const Services = () => {
               </p>
             </div>
             <div className='w-full text-left mt-4 sm:text-right '>
-              <button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button>
+              <Link to="/services/warehousing" className='sm:w-[65%%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'><button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button></Link>
             </div>
           </div>
           <div className='mt-4 sm:w-[55%] sm:relative sm:left-[-10%]'>
@@ -107,7 +108,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className='w-[95%] mx-auto my-6  sm:mt-24'>
+      <section className='w-[95%] mx-auto mt-16 mb-8  sm:mt-24'>
         
       <div className='sm:flex sm:flex-row sm:w-[93%] sm:mx-auto'>
             <div className='w-full mt-4 sm:w-[60%] sm:flex sm:flex-col sm:justify-center'>
@@ -120,7 +121,7 @@ const Services = () => {
                 </p>
               </div>
               <div className='w-full text-left mt-4 sm:mt-20'>
-                <button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button>
+                <Link to="/services/workforce" className='sm:w-[65%%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'><button className='sm:w-[25%] text-[0.9rem] font-bold border-[1px] border-cyan-400 bg-cyan-100 w-[40%] h-[5vh] rounded'>Know more</button></Link>
               </div>
             </div>
             <div className='mt-4 sm:w-[60%] sm:relative sm:right-[-10%]'>
