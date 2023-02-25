@@ -158,7 +158,7 @@ const About = () => {
           </div>
           <div className='flex flex-row justify-center w-[71%] mt-2 sm:w-[93%]'>
             <FiPhoneCall className='text-2xl mr-2 text-[#1ABDDC] sm:text-4xl'/>
-            <a className='sm:text-xl' href="">+91 95607 72719</a>
+            <a className='sm:text-xl' href="#mobile">+91 95607 72719</a>
           </div>
         </div>
       {/* </section> */}
