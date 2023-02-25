@@ -37,9 +37,9 @@ const Footer = () => {
                 <div className='w-[30%] '>
                     <div className='w-[100%] sm:w-[60%] sm:flex sm:flex-col sm:justify-center' >
                         <h3 className='w-fit ml-4  border-b-[3px] border-cyan-500 sm:text-[1.3rem]'>Quick Links</h3>
-                        <ul className=" flex flex-col justify-evenly h-56 font-sans sm:text-left sm:ml-4">
+                        <ul className=" mt-2 flex flex-col justify-evenly h-56 font-sans sm:text-left sm:ml-4">
                             <li ><Link to="/services">Services</Link></li>
-                            <li><Link to="/industries">Industries</Link></li>
+                            <li><Link to="/engine">karam.ai</Link></li>
                             <li><Link to="/contact">Contact Us</Link></li>
                             <li><Link to="/about">About Us</Link></li>
                         </ul>
@@ -48,24 +48,22 @@ const Footer = () => {
                 <div className='w-[30%]'>
                     <div className='w-[100%] sm:w-[60%] sm:flex sm:flex-col sm:justify-center' >
                         <h3 className='w-fit ml-4  border-b-[3px] border-cyan-500 sm:text-[1.3rem]'>Services</h3>
-                        <ul className=" mt-[78px] flex flex-col justify-center h-56 font-sans text-[0.85rem] sm:text-left sm:ml-4 sm:mt-[58px]">
+                        <ul className="  flex flex-col justify-start h-56 font-sans text-[0.85rem] sm:text-left sm:ml-4 sm:mt-[38px]">
                             <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/tempStaff">TEMP-STAFFING</Link></li>
                             <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/neemNaps">NAPS</Link></li>
                             <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/permStaffing">PERM-STAFFING</Link></li>
-                            <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/neemNaps">NATS</Link></li>
-                            <li className='sm:mb-4 mb-[30px]' ><Link to="/services/warehousing">3PL WAREHOUSING</Link></li>
-                            <li className='sm:mb-4 mb-[30px]'><Link to="/services/workforce">GIG</Link></li>
+                            
                         </ul>
                     </div>
                 </div>
 
                 <div className='w-[30%]'>
                     <div className='w-[100%] sm:w-[60%] sm:flex sm:flex-col sm:justify-center' >
-                        <h3 className='w-fit ml-4  border-b-[3px] border-cyan-500 sm:text-[1.3rem]'>Policies</h3>
-                        <ul className=" flex flex-col justify-center sm: h-56 font-sans sm:text-left sm:ml-4 sm:h-[24vh] sm:mt-[13px]">
-                            <li className='mb-8 sm:mb-[23px]'><Link to="/services">Services</Link></li>
-                            <li className='mb-8 sm:mb-[23px]'><Link to="/engine">Karam.Ai</Link></li>
-                            <li className='mb-8 sm:mb-[23px]'><Link to="/about">About Us</Link></li>
+                        <h3 className='w-fit ml-4  border-b-[3px] border-cyan-500 sm:text-[1.3rem]'>Services</h3>
+                        <ul className="mt-4 flex flex-col justify-center sm: h-56 font-sans sm:text-left sm:ml-4 sm:h-[24vh] sm:mt-[28px]">
+                        <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/neemNaps">NATS</Link></li>
+                            <li className='sm:mb-4 mb-[30px]' ><Link to="/services/warehousing">3PL WAREHOUSING</Link></li>
+                            <li className='sm:mb-4 mb-[30px]'><Link to="/services/workforce">GIG</Link></li>
                         
                         </ul>
                     </div>
