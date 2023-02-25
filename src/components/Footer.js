@@ -48,7 +48,7 @@ const Footer = () => {
                 <div className='w-[30%]'>
                     <div className='w-[100%] sm:w-[60%] sm:flex sm:flex-col sm:justify-center' >
                         <h3 className='w-fit ml-4  border-b-[3px] border-cyan-500 sm:text-[1.3rem]'>Services</h3>
-                        <ul className="  flex flex-col justify-start h-56 font-sans text-[0.85rem] sm:text-left sm:ml-4 sm:mt-[38px]">
+                        <ul className="mt-[38px]  flex flex-col justify-start h-56 font-sans text-[0.85rem] sm:text-left sm:ml-4 sm:mt-[38px]">
                             <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/tempStaff">TEMP-STAFFING</Link></li>
                             <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/neemNaps">NAPS</Link></li>
                             <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/permStaffing">PERM-STAFFING</Link></li>
