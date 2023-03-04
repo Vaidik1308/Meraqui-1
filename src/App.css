@@ -65,6 +65,18 @@
     color: cyan;
   
   }
+  .slide1 .swiper-button-prev:after{
+    position: relative !important;
+    top: 180px !important;
+    left:560px;
+    color: cyan;}
+  .slide1 .swiper-button-next:after{
+      position: relative !important;
+      top: 180px !important;
+      right:560px;
+      color: cyan;
+    
+    }
 
 .swiper-pagination-bullets {
   display: none;}
