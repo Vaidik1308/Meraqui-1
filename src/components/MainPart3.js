@@ -3,11 +3,11 @@ import React from 'react'
 const MainPart3 = () => {
   return (
     <main className='w-full h-fill mt-4 sm:mt-24 sm:w-[75%] sm:mx-auto'>
-      <section className='flex flex-col justify-center'>
+      <section className='flex flex-col justify-center mt-20  sm:mt-0'>
         <div className='w-full'>
           <h2 className='text-3xl sm:text-5xl font-poppins font-[300]'>Featured blogs</h2>
         </div>
-        <div className='w-full mt-8'>
+        <div className='w-full mt-4 sm:mt-4'>
           <p className=' text-[1.2rem] sm:text-[1.2rem]  font-poppins font-[300]'>
             We are bridging the gap between employees and businesses since 2019!
           </p>
