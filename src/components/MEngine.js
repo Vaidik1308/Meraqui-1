@@ -99,7 +99,7 @@ const MEngine = () => {
         <section className='mt-4 pt-4 sm:mt-20 w-[95%] mx-auto flex sm:flex-row sm:justify-between flex-col'>
             <div className=' w-full sm:w-[40%] flex flex-col sm:h-[55vh] sm:justify-center'>
                 <div className='w-full '>
-                    <h2 className=' text-left text-3xl sm:text-5xl font-quicksand font-[400] w-full sm:text-left sm:ml-2'>
+                    <h2 className=' text-left text-4xl sm:text-5xl font-quicksand font-[400] w-full sm:text-left sm:ml-2'>
                         karam.ai
                     </h2>
                 </div>
@@ -161,33 +161,33 @@ const MEngine = () => {
                         <button style={slide4 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass4(e)} value='3' id='btn4' className=' outline-none duration-300 sm:before:content-["4"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>   
                     </div>
                 </div>
-                <div className=' rounded-sm sm:w-[100%] w-[80%]   h-[60vh] mx-auto sm:relative sm:right-[-10%] sm:mt-8 '>
+                <div className=' rounded-sm sm:w-[100%] w-[100%]   h-[60vh] mx-auto sm:relative sm:right-[-10%] sm:mt-8 mt-8'>
                     {slide1 && <video 
                         autoPlay 
                         muted 
                         className='rounded-sm w-[100%] h-[60vh] transition'  
-                        controls
+                        
                         src={require("../image/whyChooseUs/CHAT.mp4")}
                     />}
                     {slide2 && <video 
                         autoPlay 
                         muted 
                         className='rounded-sm w-[100%] h-[60vh] transition'  
-                        controls
+                        
                         src={require("../image/whyChooseUs/ONBOARDING.mp4")}
                     />}
                     {slide3 && <video 
                         autoPlay 
                         muted 
                         className='rounded-sm w-[100%] h-[60vh] transition'  
-                        controls
+                        
                         src={require("../image/whyChooseUs/PAYROLL.mp4")}
                     />}
                     {slide4 && <video 
                         autoPlay 
                         muted 
                         className='w-[100%] h-[60vh] transition rounded-sm'  
-                        controls
+                        
                         src={require("../image/whyChooseUs/COMPLIANCE.mp4")}
                     />}
                 </div>
