@@ -152,7 +152,7 @@ const MainPart2 = () => {
                 <h3 className='font-poppins font-[300] w-full text-3xl  sm:text-[2.9rem]'>We have worked across all industries</h3>
               </div>
               <div className='w-full flex justify-center mt-2 sm:mt-4'> 
-                <p className=' text-[1rem] font-normal sm:text-[1.3rem] w-[75%] font-poppins font-[300]'>We are bridging the gap between employees and businesses since 2019!</p>
+                <p className=' text-[1rem] sm:text-[1.3rem] w-[75%] font-poppins font-[300]'>We are bridging the gap between employees and businesses since 2019!</p>
               </div>
         </div>
         <Swiper 
