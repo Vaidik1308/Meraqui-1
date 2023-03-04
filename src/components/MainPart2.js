@@ -156,7 +156,7 @@ const MainPart2 = () => {
               </div>
         </div>
         <Swiper 
-        className='sm:w-[100%] sm:h-[80vh]'
+        className='sm:w-[100%] sm:h-[65vh] slide1'
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={1}
@@ -168,102 +168,92 @@ const MainPart2 = () => {
       >
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-normal'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[0].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[0].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[0].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[1].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[1].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[1].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[2].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[2].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[2].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[3].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[3].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[3].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[4].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[4].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[4].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[5].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[5].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[5].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[6].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[6].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[6].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[7].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[7].title}</h3>
-                </div>
-              </div>
-          </div>    
-        </SwiperSlide>
-        <SwiperSlide>
-          
-          <div className=' mt-10  h-[20vh] w-[100%] m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
-              <div style={{backgroundImage:`url(${slides[8].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[8].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[7].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
       </Swiper>
       </section>
-      <section className='hidden sm:block mt-16'>
+      <section className='hidden sm:block sm:mt-8 mt-4'>
         <div className='w-full flex flex-col sm:h-[16vh] h-[25vh]'>
             <div className='w-full'>
-              <h3 className='w-full text-3xl font-normal sm:text-5xl font-poppins font-[300]'>Find us on our socials</h3>
+              <h3 className='w-full text-3xl  sm:text-5xl font-poppins font-[300]'>Find us on our socials</h3>
             </div>
-            <div className='w-full flex justify-center mt-2 sm:m-6'> 
+            <div className='w-full flex justify-center mt-2 sm:mt-4'> 
               <p className='text-[1rem]  sm:text-[1.3rem] w-[75%] font-poppins font-[300]'>We are bridging the gap between employees and businesses since 2019!</p>
             </div>
         </div>
@@ -353,12 +343,12 @@ const MainPart2 = () => {
           </SwiperSlide>
         </Swiper>
       </section>
-      <section className='hidden sm:block mt-4 sm:h-[90vh]'>
+      <section className='hidden sm:block sm:mt-12 mt-4 sm:h-[90vh]'>
         <div className='w-full flex flex-col sm:h-[16vh] h-[25vh]'>
             <div className='w-full'>
-              <h3 className='w-full text-3xl font-normal sm:text-5xl font-poppins font-[300]'>Meraqui in news</h3>
+              <h3 className='w-full text-3xl sm:text-5xl font-poppins font-[300]'>Meraqui in news</h3>
             </div>
-            <div className='w-full flex justify-center mt-2 sm:m-6'> 
+            <div className='w-full flex justify-center mt-2 sm:mt-4'> 
               <p className='text-[1rem] font-poppins font-[300] sm:text-[1.3rem] w-[75%]'>We are bridging the gap between employees and businesses since 2019!</p>
             </div>
         </div>
@@ -453,7 +443,7 @@ const MainPart2 = () => {
           <div className='w-full'>
             <h3 className='w-full text-3xl  sm:text-[2.9rem] font-poppins font-[300]'>We have worked across all industries</h3>
           </div>
-          <div className='w-full flex justify-center mt-2 sm:m-6'> 
+          <div className='w-full flex justify-center mt-2 sm:mt-4'> 
             <p className=' text-[1rem]  sm:text-[1.3rem] w-[75%] font-poppins font-[300]'>We are bridging the gap between employees and businesses since 2019!</p>
           </div>
         </div>
@@ -513,7 +503,7 @@ const MainPart2 = () => {
           <div className='w-full'>
             <h3 className='w-full text-3xl  sm:text-5xl font-poppins font-[300]'>Meraqui in News</h3>
           </div>
-          <div className='w-full flex justify-center mt-12 sm:m-6'> 
+          <div className='w-full flex justify-center mt-4 sm:mt-4'> 
             <p className='text-[1rem] font-poppins font-[300] sm:text-[1.3rem] w-[75%] '>We are bridging the gap between employees and businesses since 2019!</p>
           </div>
         </div>

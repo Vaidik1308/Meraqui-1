@@ -189,7 +189,7 @@ const MainPart1 = () => {
          <section className='w-full mt-4 font-thin'>
             <h3 className='text-[1.5rem] sm:text-5xl sm:py-14 font-quicksand font-[400]'>Why choose Meraqui?</h3>
         </section>
-        <section className='flex flex-row w-[95%] mx-auto  '>
+        <section className='flex flex-row w-[95%] mx-auto  font-poppins font-[300]'>
             <div className=' w-[100%] h-[30vh] sm:h-auto my-auto  flex flex-col justify-center'>
                 <div className='flex w-[100%]'>
                     <p className='w-[100%] sm:w-[65%] text-left sm:text-4xl font-quicksand font-[400]'>
@@ -215,15 +215,57 @@ const MainPart1 = () => {
         
       >
             
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                    <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides1[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-3xl'>{slides1[0].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides1[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides1[0].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides1[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides1[1].sub_header}</p>
+                        </div>
+                    </section>
+                </SwiperSlide>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides1[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides1[2].sub_header}</p>
+                        </div>
+                    </section>
+                </SwiperSlide>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides1[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides1[3].sub_header}</p>
+                        </div>
+                    </section>
+                </SwiperSlide>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides1[4].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides1[4].sub_header}</p>
+                        </div>
+                    </section>
+                </SwiperSlide>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides1[5].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides1[5].sub_header}</p>
+                        </div>
+                    </section>
+                </SwiperSlide>
+                
+                
+                {/* <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
                 <section className='flex flex-row w-[95%] mx-auto  mt-4'>
                         <div className='w-[100%] sm:w-[95%] '>
                             <img src={slides1[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
@@ -262,10 +304,10 @@ const MainPart1 = () => {
                             <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-3xl'>{slides1[5].sub_header}</p>
                         </div>
                     </section>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </section>
-        <section className='flex flex-row w-[95%] mx-auto  '>
+        <section className='flex flex-row w-[95%] mx-auto font-poppins font-[300]  '>
             <div className=' w-[100%] h-[35vh] sm:h-auto py-auto flex flex-col justify-center'>
                 <div className='flex w-[100%]'>
                     <p className='w-[100%] sm:w-[65%] text-left font-quicksand font-[400] sm:text-4xl '>
@@ -291,57 +333,42 @@ const MainPart1 = () => {
         
       >
             
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides2[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides2[0].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides2[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides2[0].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides2[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides2[1].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides2[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides2[1].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides2[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides2[2].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides2[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides2[2].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides2[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides2[3].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides2[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides2[3].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                {/* <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides2[4].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides2[4].sub_header}</p>
-                        </div>
-                    </section>
-                </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides2[5].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides2[5].sub_header}</p>
-                        </div>
-                    </section>
-                </SwiperSlide> */}
+                
             </Swiper>
         </section>
-        <section className='flex flex-row w-[95%] mx-auto  '>
+        <section className='flex flex-row w-[95%] mx-auto font-poppins font-[300]  '>
             <div className=' w-[100%] flex flex-col justify-center'>
                 <div className='flex w-[100%]'>
                     <p className='w-[100%] sm:w-[65%] text-left  sm:text-4xl font-quicksand font-[400]'>
@@ -367,57 +394,57 @@ const MainPart1 = () => {
         
       >
             
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides3[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides3[0].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides3[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides3[0].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides3[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides3[1].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides3[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides3[1].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides3[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides3[2].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides3[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides3[2].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides3[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides3[3].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides3[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides3[3].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides3[4].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides3[4].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides3[4].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides3[4].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides3[5].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides3[5].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides3[5].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides3[5].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
             </Swiper>
         </section>
-        <section className='flex flex-row w-[95%] mx-auto  '>
+        <section className='flex flex-row w-[95%] mx-auto font-poppins font-[300]  '>
             <div className=' w-[100%] h-[35vh] sm:h-auto pb-4 sm:pb-0 flex flex-col justify-center'>
                 <div className='flex w-[100%]'>
                     <p className='w-[100%] sm:w-[65%] text-left font-quicksand font-[400] sm:text-4xl '>
@@ -443,54 +470,55 @@ const MainPart1 = () => {
         
       >
             
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides4[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides4[0].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides4[0].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides4[0].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides4[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides4[1].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides4[1].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides4[1].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides4[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides4[2].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides4[2].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides4[2].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides4[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides4[3].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides4[3].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides4[3].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides4[4].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides4[4].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides4[4].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides4[4].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
-                <SwiperSlide className='flex flex-row w-[95%] mx-auto  mt-4'>
-                <section className='flex flex-row w-[95%] mx-auto  mt-4'>
-                        <div className='w-[100%] sm:w-[95%] '>
-                            <img src={slides4[5].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[55vh] sm:w-[90%] mr-2 opacity-[0.7] rounded'/>
-                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[300] z-[99] sm:text-3xl'>{slides4[5].sub_header}</p>
+                <SwiperSlide className='flex flex-row w-[95%] sm:-[100%] mx-auto  mt-4'>
+                    <section className='flex sm:w-[100%] flex-row w-[95%] mx-auto  mt-4'>
+                        <div className='w-[100%] sm:w-[100%] '>
+                            <img src={slides4[5].url} alt="photo1" className='mt-2   w-[100%] flex  h-[20vh] sm:h-[50vh] sm:w-[100%] mr-2 opacity-[0.7] rounded'/>
+                            <p className='w-[95%] text-[1rem] relative top-[2%] text-left text-black left-[3%] sm:top-[3%] sm:left-[3%] font-poppins font-[400] z-[99] sm:text-2xl'>{slides4[5].sub_header}</p>
                         </div>
                     </section>
                 </SwiperSlide>
+                
             </Swiper>
         </section>
     </main>

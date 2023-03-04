@@ -15,7 +15,7 @@ const Main = () => {
         loop
         muted
       
-        className='h-[100vh] w-full mt-2 ' 
+        className='h-fill sm:h-[100vh] w-full mt-2 ' 
         src={require('../image/whyChooseUs/header-1.mp4')} 
         alt="vide_error"
       />
