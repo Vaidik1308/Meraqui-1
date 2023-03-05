@@ -537,8 +537,8 @@ const MainPart2 = () => {
                 <p className='sm:h-[30vh] sm:overflow-y-auto sm:overflow-x-hidden text-justify font-poppins font-[500]'>{newsInfo[newsIndex].content}</p>
               </div>
               <div className='mb-8  text-right flex flex-row justify-end w-full sm:justify-none sm:text-right sm:mb-8'>
-//                 <a href="">Read more</a>
-//                  <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' /> 
+               <a href="">Read more</a>
+                   <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' /> 
               </div>
             </div>
             {/* left arrow */}
