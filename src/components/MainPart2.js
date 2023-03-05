@@ -86,23 +86,27 @@ const MainPart2 = () => {
       caption:"Budget 2022 News",
       content:"The Union Budget 2022-23 is all set to be presented by the Union Finance & Corporate Affairs Minister Nirmala Sitharaman on 1st February, 2022 in Paperless form. This is the 4th Budget of the PM Narendra Modi-led NDA government in its second tenure. ",
       date:"02/06/23",
-      publication:"publication"
+      publication:"publication",
+      links:"https://www.zeebiz.com/india/news-budget-2022-news-expectations-india-live-updates-income-tax-calculator-slabs-bands-relief-80c-changes-date-and-time-highlights-177002"
     },
       {url:require('../image/whyChooseUs/work.webp'),
       caption:"WaaS startup",
       content:"India has approximately 70 million enterprises, of which about a fifth of them have offices and a GST number, as per staffing solutions provider TeamLease’s 2020 annual report estimates.",
       date:"02/06/23",
-      publication:"publication"
+      publication:"publication",
+      links:'https://yourstory.com/2022/04/waas-startup-meraqui-blue-collar-workforce-relevant-gigs'
     },
       {url:require('../image/img/8.jpg.jpg'),
       caption:"Helping workforce",
       content:"Meraqui's proprietary tech stack Sheldon workflow covers all aspects of hiring and managing -- from facilitating recruiters and nodes to conducting interviews. Selected candidates receive a DIY onboarding link",
-      publication:"publication"
+      publication:"publication",
+      links:"https://www.zee5.com/articles/co-founders-shalin-maheshwari-lalit-singh-setting-new-benchmark-for-helping-blue-collar-workforce-through-their-startup-meraqui"
     },
       {url:require('../image/img/9.jpg.jpg'),
       caption:"Workforce Management Platform",
       content:"The system has a full-fledged ENGAGE ecosystem for all the stakeholders. The clients have a portal with a single window, which gives transparent view on their workforce and status of compliance, payment, and so on.", 
-      publication:"publication"
+      publication:"publication",
+      links:"https://www.londonchannelnews.com/news/co-founders-shalin-maheshwari-lalit-singh-setting-new-benchmark-for-helping-blue-collar-workforce-through-their-startup-meraqui20220520185127/"
     }
   ]
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -151,12 +155,12 @@ const MainPart2 = () => {
               <div className='w-full'>
                 <h3 className='font-poppins font-[300] w-full text-3xl  sm:text-[2.9rem]'>We have worked across all industries</h3>
               </div>
-              <div className='w-full flex justify-center mt-2 sm:m-6'> 
+              <div className='w-full flex justify-center mt-2 sm:mt-4'> 
                 <p className=' text-[1rem] sm:text-[1.3rem] w-[75%] font-poppins font-[300]'>We are bridging the gap between employees and businesses since 2019!</p>
               </div>
         </div>
         <Swiper 
-        className='sm:w-[100%] sm:h-[80vh]'
+        className='sm:w-[100%] sm:h-[60vh] slide1'
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={1}
@@ -168,102 +172,103 @@ const MainPart2 = () => {
       >
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-normal'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[0].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[0].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[0].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[1].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[1].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[1].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[2].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[2].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[2].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[3].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[3].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[3].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[4].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[4].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[4].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[5].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[5].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[5].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[6].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[6].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[6].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-full m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[7].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[7].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[7].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
         <SwiperSlide>
           
-          <div className=' mt-10  h-[20vh] w-[100%] m-auto px-4 relative group sm:h-[60vh] sm:font-poppins font-[300]'>
+          <div className=' mt-10  h-[30vh] w-full m-auto px-4 relative group sm:h-[40vh] sm:font-normal'>
               <div style={{backgroundImage:`url(${slides[8].url})`}} className=' rounded bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] sm:h-full duration-500'>
-                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[60vh] bg-opacity-[0.6] bg-black'>
-                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-4xl  ' >{slides[8].title}</h3>
+                <div className= ' relative flex justify-center self-center rounded text-white w-full h-[25vh] sm:h-[40vh] bg-opacity-[0.6] bg-black'>
+                  <h3 className='text-center absolute top-[45%] text-3xl font-poppins font-[300] sm:text-3xl  ' >{slides[8].title}</h3>
                 </div>
               </div>
           </div>    
         </SwiperSlide>
+        
       </Swiper>
       </section>
       <section className='hidden sm:block mt-16'>
-        <div className='w-full flex flex-col sm:h-[16vh] h-[25vh]'>
+        <div className='w-full flex flex-col sm:h-[13vh] h-[25vh]'>
             <div className='w-full'>
-              <h3 className='w-full text-3xl font-normal sm:text-5xl font-poppins font-[300]'>Find us on our socials</h3>
+              <h3 className='w-full text-3xl  sm:text-5xl font-poppins font-[300]'>Find us on our socials</h3>
             </div>
-            <div className='w-full flex justify-center mt-2 sm:m-6'> 
+            <div className='w-full flex justify-center mt-2 sm:mt-4'> 
               <p className='text-[1rem]  sm:text-[1.3rem] w-[75%] font-poppins font-[300]'>We are bridging the gap between employees and businesses since 2019!</p>
             </div>
         </div>
@@ -291,7 +296,7 @@ const MainPart2 = () => {
                       <p className='font-poppins font-[500] sm:h-[15vh] overflow-y-auto overflow-x-hidden text-justify duration-500 leading-[1.6]'>{postInfo[0].content}</p>
                     </div>
                     <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-                    <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
+                    <a className='w-full flex justify-end mb-4' href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[2.4rem] text-right  w-[15%]  text-cyan-300' /></a>
                       {/* <a href=" https://www.linkedin.com/company/meraquii"  ><FaLinkedin className='text-4xl mb-2 w-[20%] text-cyan-300'/></a> */}
                     </div>
                   </div>
@@ -309,7 +314,7 @@ const MainPart2 = () => {
                       <p className='font-poppins font-[500] sm:h-[15vh] overflow-y-auto overflow-x-hidden text-justify duration-500 leading-[1.6]'>{postInfo[1].content}</p>
                     </div>
                     <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-                    <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
+                    <a className='w-full flex justify-end mb-4' href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[2.4rem] text-right  w-[15%]  text-cyan-300' /></a>
                       {/* <FaLinkedin className='text-4xl mb-2 w-[20%] text-cyan-300' a href=" https://www.linkedin.com/company/meraquii"/> */}
                     </div>
                   </div>
@@ -327,7 +332,7 @@ const MainPart2 = () => {
                       <p className='font-poppins font-[500] sm:h-[15vh] overflow-y-auto overflow-x-hidden text-justify duration-500 leading-[1.6]'>{postInfo[2].content}</p>
                     </div>
                     <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-                    <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
+                    <a className='w-full flex justify-end mb-4' href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[2.4rem] text-right  w-[15%]  text-cyan-300' /></a>
                       {/* <FaLinkedin className='text-4xl mb-2 w-[20%] text-cyan-300' a href=" https://www.linkedin.com/company/meraquii"/> */}
                     </div>
                   </div>
@@ -345,7 +350,7 @@ const MainPart2 = () => {
                       <p className='font-poppins font-[500] sm:h-[15vh] overflow-y-auto overflow-x-hidden text-justify duration-500 leading-[1.6]'>{postInfo[3].content}</p>
                     </div>
                     <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-                    <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
+                    <a className='w-full flex justify-end mb-4' href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[2.4rem] text-right  w-[15%]  text-cyan-300' /></a>
                       {/* <FaLinkedin className='text-4xl mb-2 w-[20%] text-cyan-300' a href=" https://www.linkedin.com/company/meraquii" /> */}
                     </div>
                   </div>
@@ -353,12 +358,12 @@ const MainPart2 = () => {
           </SwiperSlide>
         </Swiper>
       </section>
-      <section className='hidden sm:block mt-4 sm:h-[90vh]'>
-        <div className='w-full flex flex-col sm:h-[16vh] h-[25vh]'>
+      <section className='hidden sm:block mt-12 sm:h-[90vh]'>
+        <div className='w-full flex flex-col sm:h-[13vh] h-[25vh]'>
             <div className='w-full'>
-              <h3 className='w-full text-3xl font-normal sm:text-5xl font-poppins font-[300]'>Meraqui in news</h3>
+              <h3 className='w-full text-3xl  sm:text-5xl font-poppins font-[300]'>Meraqui in news</h3>
             </div>
-            <div className='w-full flex justify-center mt-2 sm:m-6'> 
+            <div className='w-full flex justify-center mt-2 sm:mt-4'> 
               <p className='text-[1rem] font-poppins font-[300] sm:text-[1.3rem] w-[75%]'>We are bridging the gap between employees and businesses since 2019!</p>
             </div>
         </div>
@@ -490,66 +495,17 @@ const MainPart2 = () => {
           </div>
         </div>
         <div className=' mt-[-30px] h-full pb-8 sm:pb-0 mx-auto relative    group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[60vh]'>
-            <div style={{backgroundImage:`url(${postInfo[0].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full '>
+            <div style={{backgroundImage:`url(${postInfo[postIndex].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full '>
             </div>
             <div className='w-full flex flex-col justify-evenly h-full mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{postInfo[0].caption}</h3>
+              <div className='text-left text-[1.55rem] sm:text-[1.8rem]  font-poppins font-[300]'>
+                <h3>{postInfo[postIndex].caption}</h3>
               </div>
               <div className='text-left text-[1rem] mt-4 sm:font-semibold '>
                 <p className='font-poppins font-[500] sm:h-[30vh] h-[25vh] overflow-y-auto overflow-x-hidden text-justify duration-500'>{postInfo[postIndex].content}</p>
               </div>
               <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-              <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
-                {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300' /> */}
-              </div>
-            </div>
-            </div>
-            <div className=' mt-[-30px] h-full pb-8 sm:pb-0 mx-auto relative    group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[60vh]'>
-            <div style={{backgroundImage:`url(${postInfo[1].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full '>
-            </div>
-            <div className='w-full flex flex-col justify-evenly h-full mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{postInfo[1].caption}</h3>
-              </div>
-              <div className='text-left text-[1rem] mt-4 sm:font-semibold '>
-                <p className='font-poppins font-[500] sm:h-[30vh] h-[25vh] overflow-y-auto overflow-x-hidden text-justify duration-500'>{postInfo[postIndex].content}</p>
-              </div>
-              <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-              <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
-                {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300' /> */}
-              </div>
-            </div>
-            </div>
-            <div className=' mt-[-30px] h-full pb-8 sm:pb-0 mx-auto relative    group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[60vh]'>
-            <div style={{backgroundImage:`url(${postInfo[2].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full '>
-            </div>
-            <div className='w-full flex flex-col justify-evenly h-full mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{postInfo[2].caption}</h3>
-              </div>
-              <div className='text-left text-[1rem] mt-4 sm:font-semibold '>
-                <p className='font-poppins font-[500] sm:h-[30vh] h-[25vh] overflow-y-auto overflow-x-hidden text-justify duration-500'>{postInfo[postIndex].content}</p>
-              </div>
-              <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-              <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
-                {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300' /> */}
-              </div>
-            </div>
-            </div>
-            <div className=' mt-[-30px] h-full pb-8 sm:pb-0 mx-auto relative    group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[60vh]'>
-            <div style={{backgroundImage:`url(${postInfo[3].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full '>
-            </div>
-            <div className='w-full flex flex-col justify-evenly h-full mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{postInfo[3].caption}</h3>
-              </div>
-              <div className='text-left text-[1rem] mt-4 sm:font-semibold '>
-                <p className='font-poppins font-[500] sm:h-[30vh] h-[25vh] overflow-y-auto overflow-x-hidden text-justify duration-500'>{postInfo[postIndex].content}</p>
-              </div>
-              <div className='text-right flex flex-row justify-end w-full sm:justify-none sm:mb-4 sm:text-right'>
-              <a href=' https://www.linkedin.com/company/meraquii' target='blank'><FaLinkedin className='text-[4rem]  w-[50%] text-cyan-300' /></a>
-                {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300' /> */}
+                <a className='text-6xl w-[100%] relative bottom-[5%] flex justify-end ' href='https://www.linkedin.com/company/meraquii'><FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:text-right sm:ml-8 sm:w-[50%]' /></a>
               </div>
             </div>
             {/* left arrow */}
@@ -574,80 +530,30 @@ const MainPart2 = () => {
             <p className='text-[1rem] font-poppins font-[300] sm:text-[1.3rem] w-[75%] '>We are bridging the gap between employees and businesses since 2019!</p>
           </div>
         </div>
-        <div className=' mt-6  h-[80vh] mx-auto    relative group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[55vh]'>
-            <div style={{backgroundImage:`url(${newsInfo[0].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full'>
+        <div className=' mt-6  h-[85vh] mx-auto    relative group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[55vh]'>
+            <div style={{backgroundImage:`url(${newsInfo[newsIndex].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full'>
             </div>
             <div className='w-full flex flex-col justify-evenly h-[55vh] mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{newsInfo[0].caption}</h3>
+              <div className='text-left w-[100%] text-[1.55rem] sm:text-[1.8rem] h-[25vh]  font-poppins font-[300] flex justify-center flex-col mt-4'>
+                <h3 className='w-full h-[10vh]'>{newsInfo[newsIndex].caption}</h3>
               </div>
               <div className='text-left text-[1rem] mt-4 sm:font-semibold'>
-                <p className='sm:h-[30vh] sm:overflow-y-auto sm:overflow-x-hidden text-justify font-poppins font-[500]'>{newsInfo[0].content}</p>
+                <p className='sm:h-[30vh] sm:overflow-y-auto overflow-y-auto  sm:overflow-x-hidden overflow-x-hidden h-[25vh] text-justify font-poppins font-[500]'>{newsInfo[newsIndex].content}</p>
               </div>
-              <div className='mb-8  text-right flex flex-row justify-end w-full sm:justify-none sm:text-right sm:mb-8'>
-                 {/* <a href="https://www.zeebiz.com/india/news-budget-2022-news-expectations-india-live-updates-income-tax-calculator-slabs-bands-relief-80c-changes-date-and-time-highlights-177002" target="blank">Read more</a> */}
-                 <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem] font-poppins font-[500]' href="https://www.zeebiz.com/india/news-budget-2022-news-expectations-india-live-updates-income-tax-calculator-slabs-bands-relief-80c-changes-date-and-time-highlights-177002">Read more</a>
-                 {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' />   */}
+              <div className='mb-8 mt-2   flex flex-row justify-start w-full sm:justify-none sm:text-right sm:mb-8'>
+                <a href={newsInfo[newsIndex].links}>Read more</a>
+                
               </div>
-            </div>
-            </div>
-            <div className=' mt-6  h-[80vh] mx-auto    relative group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[55vh]'>
-            <div style={{backgroundImage:`url(${newsInfo[1].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full'>
-            </div>
-            <div className='w-full flex flex-col justify-evenly h-[55vh] mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{newsInfo[1].caption}</h3>
-              </div>
-              <div className='text-left text-[1rem] mt-4 sm:font-semibold'>
-                <p className='sm:h-[30vh] sm:overflow-y-auto sm:overflow-x-hidden text-justify font-poppins font-[500]'>{newsInfo[1].content}</p>
-              </div>
-              <div className='mb-8  text-right flex flex-row justify-end w-full sm:justify-none sm:text-right sm:mb-8'>
-                 {/* <a href="https://yourstory.com/2022/04/waas-startup-meraqui-blue-collar-workforce-relevant-gigs" target="blank">Read more</a> */}
-                 <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem] font-poppins font-[500]' href="https://yourstory.com/2022/04/waas-startup-meraqui-blue-collar-workforce-relevant-gigs">Read more</a>
-                 {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' />   */}
-              </div>
-            </div>
-            </div>
-            <div className=' mt-6  h-[80vh] mx-auto    relative group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[55vh]'>
-            <div style={{backgroundImage:`url(${newsInfo[2].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full'>
-            </div>
-            <div className='w-full flex flex-col justify-evenly h-[55vh] mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{newsInfo[2].caption}</h3>
-              </div>
-              <div className='text-left text-[1rem] mt-4 sm:font-semibold'>
-                <p className='sm:h-[30vh] sm:overflow-y-auto sm:overflow-x-hidden text-justify font-poppins font-[500]'>{newsInfo[2].content}</p>
-              </div>
-              <div className='mb-8  text-right flex flex-row justify-end w-full sm:justify-none sm:text-right sm:mb-8'>
-                 {/* <a href="https://www.zee5.com/articles/co-founders-shalin-maheshwari-lalit-singh-setting-new-benchmark-for-helping-blue-collar-workforce-through-their-startup-meraqui" target="blank">Read more</a> */}
-                 <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem] font-poppins font-[500]' href="https://www.zee5.com/articles/co-founders-shalin-maheshwari-lalit-singh-setting-new-benchmark-for-helping-blue-collar-workforce-through-their-startup-meraqui">Read more</a>
-                 {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' />   */}
-              </div>
-            </div>
-            </div>
-            <div className=' mt-6  h-[80vh] mx-auto    relative group shadow-md w-[90%] sm:flex sm:flex-row  bg-cyan-100 sm:h-[55vh]'>
-            <div style={{backgroundImage:`url(${newsInfo[3].url})`}} className=' bg-center bg-cover bg-no-repeat w-[100%] h-[25vh] duration-500 sm:w-[40%] sm:h-full'>
-            </div>
-            <div className='w-full flex flex-col justify-evenly h-[55vh] mt-8 sm:w-[50%] sm:justify-evenly sm:mx-auto sm:h-full px-2'>
-              <div className='text-left text-[1.8rem]  font-poppins font-[300]'>
-                <h3>{newsInfo[3].caption}</h3>
-              </div>
-              <div className='text-left text-[1rem] mt-4 sm:font-semibold'>
-                <p className='sm:h-[30vh] sm:overflow-y-auto sm:overflow-x-hidden text-justify font-poppins font-[500]'>{newsInfo[3].content}</p>
-              </div>
-              <div className='mb-8  text-right flex flex-row justify-end w-full sm:justify-none sm:text-right sm:mb-8'>
-                  {/* <a href="https://www.londonchannelnews.com/news/co-founders-shalin-maheshwari-lalit-singh-setting-new-benchmark-for-helping-blue-collar-workforce-through-their-startup-meraqui20220520185127/" target="blank">Read more</a>  */}
-                  <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem] font-poppins font-[500]' href="https://www.londonchannelnews.com/news/co-founders-shalin-maheshwari-lalit-singh-setting-new-benchmark-for-helping-blue-collar-workforce-through-their-startup-meraqui20220520185127/">Read more</a>
-                 {/* <a className='text-[0.8rem] border-b-[1px] border-cyan-400 sm:text-[1rem] font-poppins font-[500]' href="https://www.zeebiz.com/india/news-budget-2022-news-expectations-india-live-updates-income-tax-calculator-slabs-bands-relief-80c-changes-date-and-time-highlights-177002">Read more</a> */}
-                 {/* <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' />   */}
+              <div className='mb-4  text-right flex flex-row justify-end w-full sm:justify-none sm:text-right sm:mb-8'>
+                <FaLinkedin className='text-5xl w-[20%] text-cyan-300 sm:m-1' /> 
               </div>
             </div>
             {/* left arrow */}
-            <div className='bg-opacity-[0.9] sm:hidden sm:group-hover:block absolute top-[38%] sm:top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-white text-cyan-400 cursor-pointer'>
+            <div className='bg-opacity-[0.9] sm:hidden sm:group-hover:block absolute top-[29.5%] sm:top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-white text-cyan-400 cursor-pointer'>
               <BsChevronCompactLeft onClick={() => prevNews()} className="sm:hidden" size={30}/>
               <BsChevronCompactLeft onClick={() => prevNews()} className=" hidden sm:block" size={50}/>
             </div>
-            <div className=' bg-opacity-[0.9] sm:hidden sm:group-hover:block absolute top-[38%] sm:top-[50%] translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-white text-cyan-400 cursor-pointer'>
+            <div className=' bg-opacity-[0.9] sm:hidden sm:group-hover:block absolute top-[29.5%] sm:top-[50%] translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-white text-cyan-400 cursor-pointer'>
               <BsChevronCompactRight onClick={() => nextNews()}  className='sm:hidden' size={30}t/>
               <BsChevronCompactRight onClick={() => nextNews()}  className='hidden sm:block' size={50}t/>
             </div>

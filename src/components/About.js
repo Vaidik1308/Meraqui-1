@@ -1,7 +1,7 @@
 import React from 'react';
 // import {BsChevronCompactLeft,BsChevronCompactRight} from 'react-icons/bs';
-import {MdOutlineMailOutline} from 'react-icons/md';
-import {FiPhoneCall} from 'react-icons/fi';
+// import {MdOutlineMailOutline} from 'react-icons/md';
+// import {FiPhoneCall} from 'react-icons/fi';
 
 const About = () => {
 
