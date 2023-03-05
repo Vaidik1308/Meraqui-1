@@ -45,9 +45,6 @@ const About = () => {
         </div>
       </section>
       <section className='w-[95%] mx-auto my-12'>
-        <div className='w-full sm:mb-12'>
-          <h2 className='text-3xl sm:text-4xl font-poppins font-[300]'>Journey</h2>
-        </div>
         <div className='w-full sm:flex sm:flex-row sm:ml-16 sm:justify-center'>
           <div className='w-full mt-6 sm:w-[60%] sm:flex sm:flex-col sm:justify-between sm:h-[25vh] sm:my-auto'>
             <div className='w-full'>
