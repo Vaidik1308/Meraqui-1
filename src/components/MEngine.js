@@ -124,8 +124,8 @@ const MEngine = () => {
       <br></br>
                     With user-friendly On-boarding engine, karam.ai helps them with seamless self- onboarding. karam.ai’s role doesn’t end with hiring a candidate.
       <br></br><br></br>He works tirelessly to record their daily attendance with a single motto: Candidates’ salary must get credited on time along with compliance.<br></br><br></br> Every month. Flawlessly. 
-                    karam.ai comes handy in their times of dire need of money. He extends them salary advance, loans apart from their rightful cover under statutory dues and/or other insurance packages. <br />
-                    karam.ai tracks a candidate’s life cycle from hire to retire and becomes organisations go-to person to solve daily HR needs.
+                    karam.ai comes handy in their times of dire need of money. He extends them salary advance, loans apart from their rightful cover under statutory dues and/or other insurance packages. <br /><br></br>
+                    karam.ai tracks a candidate’s life cycle from hire to retire and becomes organisations go-to person to solve daily HR needs.<br></br><br></br>
                 </p>
             </div>
         </section>
