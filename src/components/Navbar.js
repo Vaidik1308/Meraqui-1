@@ -35,9 +35,8 @@ const Navbar = () => {
                 <span onClick={() => sideBar()} className=' w-[90%] text-6xl text-right cursor-pointer '>&times;</span>
                 <Link to='/' onClick={() => setIsHidden(false)} className="inline p-4 mt- hover:text-slate-400 mx-1">Home</Link>
                 <Link to='/about' onClick={() => setIsHidden(false)} className="inline p-4 mt- hover:text-slate-400 mx-1">About us</Link>
-//                 <Link to='/solutions' onClick={() => setIsHidden(false)} className="inline p-4 hover:text-slate-400 mx-1">Solution</Link>
                 <Link onClick={() => setIsHidden(false)} to='/services' className="inline p-4 hover:text-slate-400 mx-1">Services</Link>
-                <Link onClick={() => setIsHidden(false)} to='/engine' className="inline p-4 hover:text-slate-400 mx-1">Karam.ai</Link>
+                <Link onClick={() => setIsHidden(false)} to='/engine' className="inline p-4 hover:text-slate-400 mx-1">karam.ai</Link>
                 <Link onClick={() => setIsHidden(false)} to='/contact' className="inline p-4 hover:text-slate-400 mx-1">Contact</Link>
             </ul>
             
