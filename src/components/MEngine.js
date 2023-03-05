@@ -121,6 +121,7 @@ const MEngine = () => {
             </div>
             <div className='w-full  mt-4 sm:mt-12'>
                 <p className='  text-left w-[95%] mx-auto sm:text-[1.2rem]'>
+      <br></br>
                     With user-friendly On-boarding engine, karam.ai helps them with seamless self- onboarding. karam.ai’s role doesn’t end with hiring a candidate.
       <br></br>He works tirelessly to record their daily attendance with a single motto: Candidates’ salary must get credited on time along with compliance.<br></br> Every month. Flawlessly. 
                     karam.ai comes handy in their times of dire need of money. He extends them salary advance, loans apart from their rightful cover under statutory dues and/or other insurance packages. <br />
