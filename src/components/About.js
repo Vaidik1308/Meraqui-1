@@ -10,10 +10,10 @@ const About = () => {
       <section className='w-[95%] sm:flex sm:flex-row  h-fill my-8 mx-auto h-fill sm:mb-16'>
         <div className='w-full sm:w-[55%] sm:h-[55vh] sm:flex sm:flex-col sm:ml-12 sm:justify-center'>
           <div className='w-full sm:mb-8'>
-            <h1 className='text-3xl text-left sm:text-4xl'>About MERAQUI</h1>
+            <h1 className='text-3xl text-left sm:text-4xl font-quicksand font-[400]'>About MERAQUI</h1>
           </div>
           <div className='w-full mt-3'>
-            <p className='text-left sm:w-[75%]'>
+            <p className='text-left sm:w-[75%] font-poppins font-[300]'>
               We are a SaaS-enabled workforce management platform specializing in employee lifecycle management, job and requisition management, and training and interview assessments. We link our expertise with your business demands and proactively begin HR procedures to meet your needs, harnessing the power of Artificial Intelligence. We have a robust pan-India presence in 22 states and 55 cities and are aiming to grow significantly in the times to come.
             </p>
           </div>
@@ -24,7 +24,7 @@ const About = () => {
       </section>
       <section className='w-full my-12 '>
         <div className='w-full mb-4 sm:mb-16'>
-          <h2 className='text-3xl sm:text-4xl'>Our Philosophy</h2>
+          <h2 className='text-3xl sm:text-4xl font-poppins font-[300]'>Our Philosophy</h2>
         </div>
       
         <div style={{backgroundImage:"url(https://images.unsplash.com/photo-1510146758428-e5e4b17b8b6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"}} className='bg-cover bg-center w-full sm:h-[55vh]'>
@@ -35,7 +35,7 @@ const About = () => {
               </h3> */}
             </div> 
             <div className='w-[95%] sm:w-[89%] mx-auto my-4'>
-              <p className='text-left sm:w-[85%]'>
+              <p className='text-left sm:w-[85%] font-poppins font-[300]'>
                 We believe that "The greatest asset of a company is its people” <br />
                  Meraqui will assist your employees to stay up-to-date with <br /> our upskilling solutions and also helps them comply with any tasks that technology and trends throw their way. Our sterling apprenticeship programs and work environment <br /> ensure employee retention. <br />
                 Meraqui's mission is to assist and build an organization that people desire to be a part of. 
@@ -67,7 +67,7 @@ const About = () => {
       </section> */}
       {/* <h1 className='text-[1.4rem] sm:text-[1.6rem] text-center'>The Team</h1> */}
       <div className='w-full mb-4 sm:mb-16'>
-          <h2 className='text-3xl sm:text-4xl'>The Team</h2>
+          <h2 className='text-3xl sm:text-4xl font-poppins font-[300]'>The Team</h2>
         </div>
    
         <section className='bg-[white] p-8 h-fill w-[100%] font-poppins'>
@@ -78,8 +78,8 @@ const About = () => {
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
-                <h2 >Lalit Singh</h2>
-                <p>Co-Founders</p>
+                <h2 className='font-poppins font-[400]' >Lalit Singh</h2>
+                <p className='font-poppins font-[300]'>Co-Founders</p>
               </div>
             </div>
           </div>
@@ -89,8 +89,8 @@ const About = () => {
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
-                <h2 >Shalin Maheshwari</h2>
-                <p>Co-Founders</p>
+                <h2 className='font-poppins font-[400]' >Shalin Maheshwari</h2>
+                <p className='font-poppins font-[300]'>Co-Founders</p>
               </div>
             </div>
           </div>
@@ -100,8 +100,8 @@ const About = () => {
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
-                <h2 >Amit Duggal</h2>
-                <p>Chief Operating Officer</p>
+                <h2 className='font-poppins font-[400]' >Amit Duggal</h2>
+                <p className='font-poppins font-[300]'>Chief Operating Officer</p>
               </div>
             </div>
           </div>
@@ -111,8 +111,8 @@ const About = () => {
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
-                <h2 >Anis Kazi</h2>
-                <p>CBO-Logistics & Ecommerce</p>
+                <h2 className='font-poppins font-[400]' >Anis Kazi</h2>
+                <p className='font-poppins font-[300]'>CBO-Logistics & Ecommerce</p>
               </div>
             </div>
           </div>
@@ -122,8 +122,8 @@ const About = () => {
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
-                <h2 >Sandeep Shevale</h2>
-                <p>CBO- Manufacturing</p>
+                <h2 className='font-poppins font-[400]'>Sandeep Shevale</h2>
+                <p className='font-poppins font-[300]'>CBO- Manufacturing</p>
               </div>
             </div>
           </div>
@@ -133,8 +133,8 @@ const About = () => {
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[10vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
-                <h2 >Chiranjeev Jha</h2>
-                <p className='px-[2px]'>Business Head- Frontline Staffing</p>
+                <h2 className='font-poppins font-[400]'>Chiranjeev Jha</h2>
+                <p className='px-[2px] font-poppins font-[300]'>Business Head- Frontline Staffing</p>
               </div>
             </div>
           </div>
