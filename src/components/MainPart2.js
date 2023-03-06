@@ -17,11 +17,11 @@ import 'swiper/css/effect-cube'
 const MainPart2 = () => {
   
   const slides = [
-    {url: "https://images.unsplash.com/photo-1521111756787-d2f69136cedf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbnVmYWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    {url: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     title:"Retail"
   },
     //  {url: "https://images.unsplash.com/photo-1606964212858-c215029db704?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",title:"Industries"},
-    {url: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",title:"Manufacturing"},
+      {url:"https://images.unsplash.com/photo-1521111756787-d2f69136cedf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1hbnVmYWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",title:"Manufacturing"},
     {url: require("../image/img/third.jpg"),
     title:"FMCG"
   },
