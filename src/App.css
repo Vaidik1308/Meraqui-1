@@ -90,6 +90,10 @@
   display: none !important;
 }
 
+/* .swiper-horizontal > .swiper-pagination-bullets{
+  display: inline ;
+  
+} */
 .swiper-vertical > .swiper-pagination-bullets{
   display: inline ;
   
@@ -97,4 +101,16 @@
 
 .swiper-pagination-bullets > .swiper-pagination-bullet {
   background-color: rgb(118, 223, 223) !important;
+}
+.pic >  .swiper-pagination-bullets > .swiper-pagination-bullet{
+ background-color: rgb(0, 255, 255) !important;
+}  
+.pic >  .swiper-pagination-bullets{
+  /* position: relative; */
+   right: 2px !important;
+   bottom: 4px !important;  
+}
+
+.onHover:hover{
+  box-shadow: 0px 2px 34px cyan;
 }

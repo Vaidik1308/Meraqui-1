@@ -149,7 +149,7 @@ const MainPart2 = () => {
   }
 
   return (
-    <main className='w-full mt-10 sm:mt-24 font-bold sm:w-[85%] sm:mx-auto sm:font-normal sm:h-full'>
+    <main className='w-full mt-10 sm:mt-16 font-bold sm:w-[85%] sm:mx-auto sm:font-normal sm:h-full'>
       <section className='hidden sm:block'>
         <div className='flex flex-col '>
               <div className='w-full'>
