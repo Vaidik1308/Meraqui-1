@@ -73,7 +73,7 @@ const About = () => {
         <section className='bg-[white] p-8 h-fill w-[100%] font-poppins'>
         <div className=' grid  grid-cols-1 sm:grid-cols-3 sm:w-[95%] sm:ml-32 sm:mx-auto'>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center  sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/LalitSir.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
@@ -84,7 +84,7 @@ const About = () => {
             </div>
           </div>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center  sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/ShalinSir.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
@@ -95,7 +95,7 @@ const About = () => {
             </div>
           </div>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center  sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/AmitSir.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
@@ -106,7 +106,7 @@ const About = () => {
             </div>
           </div>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center  sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/AnisSir.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
@@ -117,7 +117,7 @@ const About = () => {
             </div>
           </div>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/SandeepSir.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
@@ -128,7 +128,7 @@ const About = () => {
             </div>
           </div>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center  sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/ChiranjeevJha.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
@@ -139,7 +139,7 @@ const About = () => {
             </div>
           </div>
           <div className='sm:flex sm:flex-col w-[100%] mb-4 sm:mb-0'>
-            <div className='rounded-[10px] flex justify-center bg-cyan-100 sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
+            <div className='rounded-[10px] flex justify-center  sm:w-[68%] sm:rounded-[10px] sm:h-[30vh] sm:flex sm:justify-center'>
               <img src={require('../image/img/SachinChavan.jpg')} className="p-2 w-[60%] sm:p-2 sm:w-[70%] sm:h-fill" alt="" />
             </div>
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
