@@ -79,7 +79,7 @@ const About = () => {
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
                 <h2 className='font-poppins font-[400]' >Lalit Singh</h2>
-                <p className='font-poppins font-[300]'>Co-Founders</p>
+                <p className='font-poppins font-[300]'>Co-Founder</p>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ const About = () => {
             <div className='sm:flex w-[100%]  sm:w-[68%] sm:bottom-5 sm:relative sm:mb-8'>
               <div className='flex justify-center w-[88%] mx-auto rounded-[10px] bottom-6 relative shadow-lg h-[8vh] flex-col sm:mx-auto bg-white sm:shadow-sm sm:w-[88%] sm:h-[15vh] sm:flex sm:justify-center sm:flex-col sm:rounded-[10px] sm:relative '>
                 <h2 className='font-poppins font-[400]' >Shalin Maheshwari</h2>
-                <p className='font-poppins font-[300]'>Co-Founders</p>
+                <p className='font-poppins font-[300]'>Co-Founder</p>
               </div>
             </div>
           </div>
