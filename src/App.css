@@ -84,3 +84,17 @@
 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
   display: none;
 }
+
+
+.swiper-vertical>.swiper-scrollbar{
+  display: none !important;
+}
+
+.swiper-vertical > .swiper-pagination-bullets{
+  display: inline ;
+  
+}
+
+.swiper-pagination-bullets > .swiper-pagination-bullet {
+  background-color: rgb(118, 223, 223) !important;
+}
