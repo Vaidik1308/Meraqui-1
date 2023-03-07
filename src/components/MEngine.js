@@ -59,7 +59,7 @@ const MEngine = () => {
             header1:"Recruitment",
             header2:"at Scale",
             body:"karam.ai allows employers to hire workers in large volumes in a number of industries across India.",
-            para1:" Reduce dependence on hundreds of recruitment vendorsReducing sourcing costs & turnaround times by up to 30%",
+            para1:" Reducing sourcing costs & turnaround times by up to 30%",
             para2:" Reduce dependence on hundreds of recruitment vendors",
             img:"https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
             url:"../image/whyChooseUs/CHAT.mp4",
