@@ -23,7 +23,7 @@ const NeemNaps = () => {
           </div>
           <div className='sm:relative sm:right-[-15%] sm:w-[90%]'>
               {/* <img className='w-[100%] h-auto' src=require:url"../image/whyChooseUs/NAPS.jpg" alt="" /> */}
-              <img src={NAPS} className='w-[100%] h-auto'></img>
+              <img alt='photo1' src={NAPS} className='w-[100%] h-auto'></img>
              {/* url: require('../image/whyChooseUs/Requirements.jpg') */}
           </div>
         

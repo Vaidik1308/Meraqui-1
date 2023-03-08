@@ -2,7 +2,7 @@ import React from 'react'
 import {FaLinkedin} from 'react-icons/fa';
 import {AiTwotoneMail} from 'react-icons/ai';
 import {BiMapAlt} from 'react-icons/bi';
-import { BiConversation } from 'react-icons/bi';
+// import { BiConversation } from 'react-icons/bi';
 import { BiPhoneCall } from 'react-icons/bi';
 import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
@@ -10,7 +10,7 @@ import '../App.css'
 
 const Footer = () => {
   return (
-    <footer className=' bg-cyan-100 w-[100%] h-fill pb-8 sm:pb-16 flex flex-col  sm:pt-8 sm:h-[95vh] font-poppins '>
+    <footer className=' bg-cyan-100 w-[100%] h-fill pb-2 sm:pb-16 flex flex-col  sm:pt-8 sm:h-[95vh] font-poppins '>
          <div className='flex flex-col sm:flex-row sm:w-[80%]  sm:mx-auto sm:justify-center sm:mb-8 sm:pb-8'> 
             <div className='w-full sm:flex sm:flex-row sm:justify-around sm:w-[53%]'>
                 <div className=' flex flex-col w-full sm:w-[100%] sm:justify-between sm:h-[35vh] sm:text-left'>

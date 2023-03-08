@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className=' max-w-full flex flex-col justify-between mx-1 sm:mx-0 sm:bg-[#FFFFFF]  mt-4 sm:mt-0 sm:py-4  sm:fixed sm:bg-opacity-[0.9] z-50 sm:w-full sm:h-[8vh]'>
         <div className="max-w-full flex flex-row justify-between mx-1  mt-1 sm:justify-evenly sm:relative sm:bottom-[50%]">
-            <div className=' w-[60%] sm:h-[4vh] sm:mt-2 sm:w-[10%] sm:flex'>
+            <div className=' w-[40%] mt-2 sm:h-[4vh] sm:mt-2 sm:w-[10%] sm:flex'>
                 <Link to="/">< img src={require('../image/logo.png')} alt="" /></Link>
             </div>
             <div onClick={() => sideBar()} className='  sm:hidden w-[8%] h-[4vh] my-2 cursor-pointer outline-none mr-4'>
