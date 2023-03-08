@@ -93,25 +93,22 @@ const MEngine = () => {
         },
     ]
     
-    console.log(content[originalIndex].url);
+    // console.log(content[originalIndex].url);
     
   return (
     <main className='w-full h-fill mb-4 sm:w-[85%] sm:mx-auto sm:mt-8'>
         <section className='mt-4 pt-4 sm:mt-20 w-[95%] mx-auto flex sm:flex-row sm:justify-between flex-col'>
-            <div className=' w-full sm:w-[40%] flex flex-col sm:h-[55vh] sm:justify-center'>
+            <div className=' w-full sm:w-[40%] flex flex-col sm:h-[70vh] sm:justify-center '>
                 <div className='w-full '>
                     <h2 className=' text-left text-4xl sm:text-5xl font-quicksand font-[400] w-full sm:text-left sm:ml-2'>
-      <br></br>
-      <br></br>
-      <br></br>
                         karam.ai
                     </h2>
                 </div>
-                <div className=' mt-2 text-left sm:mt-12'>
-                    <p className='text-black font-poppins font-[300] sm:text-[1rem]  sm:leading-[1.8]'>
+                <div className=' mt-2 text-left sm:mt-12 sm:w-[100%]'>
+                    <p className='text-black font-poppins font-[300] sm:w-[100%] sm:text-[1rem]  sm:leading-[1.8]'>
                         karam.ai is an Al-based companion who uses chat bot functionality to interact with candidates and employers.
-      <br></br><br></br>He doesn’t generate just leads or qualified leads. He runs his proprietary match logic to zero in on the most suitable candidates.<br></br><br></br> His Background verification engine ensures that only verified candidates get on-boarded.
-      <br></br><br></br>
+                        He doesn’t generate just leads or qualified leads. He runs his proprietary match logic to zero in on the most suitable candidates.
+                        His Background verification engine ensures that only verified candidates get on-boarded.
                     </p>
                 </div>
             </div>
@@ -123,14 +120,20 @@ const MEngine = () => {
             <div className='w-full ml-4 '>
                 <h1 className='text-4xl  w-full text-left sm:w-[100%] sm:text-center sm:text-4xl'>About karam.ai</h1>
             </div>
-            <div className='w-full  mt-4 sm:mt-12'>
-                <p className='  text-left w-[95%] mx-auto sm:text-[1.2rem]'>
-      <br></br>
+            <div className='w-full  mt-4 sm:mt-12 flex flex-col'>
+                <p className='  text-left w-[95%] mx-auto sm:text-[1.2rem] '>
                     With user-friendly On-boarding engine, karam.ai helps them with seamless self- onboarding. karam.ai’s role doesn’t end with hiring a candidate.
-      <br></br><br></br>He works tirelessly to record their daily attendance with a single motto: Candidates’ salary must get credited on time along with compliance.<br></br><br></br> Every month. Flawlessly. 
-                    karam.ai comes handy in their times of dire need of money. He extends them salary advance, loans apart from their rightful cover under statutory dues and/or other insurance packages. <br /><br></br>
-                    karam.ai tracks a candidate’s life cycle from hire to retire and becomes organisations go-to person to solve daily HR needs.<br></br><br></br>
                 </p>
+                <p className='  text-left w-[95%] mx-auto sm:text-[1.2rem] mt-2'>
+                    He works tirelessly to record their daily attendance with a single motto: Candidates’ salary must get credited on time along with compliance.Every month. Flawlessly.
+                </p> 
+                <p className='  text-left w-[95%] mx-auto sm:text-[1.2rem] mt-2'>
+                    karam.ai comes handy in their times of dire need of money. He extends them salary advance, loans apart from their rightful cover under statutory dues and/or other insurance packages.
+                </p> 
+                <p className='  text-left w-[95%] mx-auto sm:text-[1.2rem] mt-2'>
+                    karam.ai tracks a candidate’s life cycle from hire to retire and becomes organizations go-to person to solve daily HR needs.
+                </p>
+        
             </div>
         </section>
         <section className='flex flex-col w-full mt-14 font-poppins font-[300] sm:w-[95%] sm:mx-auto'>
@@ -138,36 +141,38 @@ const MEngine = () => {
                 <h2 className='text-[1.8rem] sm:text-4xl px-1'>Why you'll love karam.ai</h2>
             </div>
             <div className='sm:flex sm:flex-row duration-500'>
-            <div className='sm:hidden h-[2vh] flex flex-row my-12 w-[90%] mx-auto'>
-                    <button  value='0' style={slide1 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass1(e)}   id='btn1' className='sm:hidden outline-none  duration-300 before:content-["1"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>
-                    <button style={slide2 ? {height: "6px", marginBottom: "5px"} : null } value='1' onClick={(e) => AddClass2(e)}  id='btn2' className='sm:hidden outline-none  duration-300 before:content-["2"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>
-                    <button style={slide3 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass3(e)} value='2' id='btn3'  className='sm:hidden outline-none  duration-300 before:content-["3"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>
-                    <button style={slide4 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass4(e)} value='3' id='btn4'  className='sm:hidden outline-none  duration-300 before:content-["4"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>   
-                </div>
-                <div className='w-full sm:w-[100%] sm:mt-16 flex flex-col sm:h-[65vh] mt-4 sm:justify-between'>
-                    <div className='w-full text-left text-2xl ml-4  sm:mb-8 sm:text-4xl'>
-                        <h3 className=''>{content[originalIndex].header1} <span className='text-cyan-300 duration-500'>{content[originalIndex].header2}</span></h3>
+                <div className='sm:hidden h-[2vh] flex flex-row my-12 w-[90%] mx-auto'>
+                        <button  value='0' style={slide1 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass1(e)}   id='btn1' className='sm:hidden outline-none  duration-300 before:content-["1"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>
+                        <button style={slide2 ? {height: "6px", marginBottom: "5px"} : null } value='1' onClick={(e) => AddClass2(e)}  id='btn2' className='sm:hidden outline-none  duration-300 before:content-["2"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>
+                        <button style={slide3 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass3(e)} value='2' id='btn3'  className='sm:hidden outline-none  duration-300 before:content-["3"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>
+                        <button style={slide4 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass4(e)} value='3' id='btn4'  className='sm:hidden outline-none  duration-300 before:content-["4"] before:font-semibold before:text-[0.8rem] before:relative before:w-[100%] before:text-left before:-top-[20px] w-[25%] flex flex-row justify-center bg-cyan-400 h-[1.5px] '></button>   
                     </div>
-                    <div className='w-full mt-2 sm:mb-8'>
-                        <p className='ml-4  text-left'>
-                            {content[originalIndex].body}
-                        </p>
-                    </div>
-                    <div className='w-full flex flex-row justify-evenly mt-2 sm:mb-8 sm:text-[1.1rem]'>
-                        <span className=' ml-4 w-[10%] text-2xl mt-1'><BsFillArrowRightCircleFill className='text-cyan-400 sm:text-[2rem] sm:relative sm:bottom-[15%]' /></span>
-                        <p className='w-[90%] text-left'>{content[originalIndex].para1}</p>
-                    </div>
-                    <div className='w-full flex flex-row justify-evenly sm:text-[1.1rem]'>
-                        <span className=' ml-4 w-[10%] text-2xl sm:text-3xl mt-1'><BsFillArrowRightCircleFill className='text-cyan-400 sm:text-[2rem] sm:relative sm:bottom-[15%]' /></span>
-                        <p className='w-[90%] text-left'>{content[originalIndex].para2}</p>
-                    </div>
-                    <div className='hidden sm:w-[92%] my-auto sm:mx-auto sm:h-[6vh]  sm:flex sm:flex-row sm:justify-center duration-500'>
-                        
-                        <button  value='0' style={slide1 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass1(e)}   id='btn1' className=' outline-none  duration-300 sm:before:content-["1"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>
-                        <button style={slide2 ? {height: "6px", marginBottom: "5px"} : null } value='1' onClick={(e) => AddClass2(e)}  id='btn2' className='outline-none duration-300 sm:before:content-["2"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>
-                        <button style={slide3 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass3(e)} value='2' id='btn3' className=' outline-none duration-300 sm:before:content-["3"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>
-                        <button style={slide4 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass4(e)} value='3' id='btn4' className=' outline-none duration-300 sm:before:content-["4"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>   
-                    </div>
+                    <div className='  w-full sm:w-[100%] sm:mt-16 flex flex-col sm:h-[65vh] mt-4 sm:justify-between'>
+                        <div className='sm:min-h-[50vh] '>
+                            <div className='w-full text-left text-2xl ml-4  sm:mb-8 sm:text-4xl'>
+                                <h3 className=''>{content[originalIndex].header1} <span className='text-cyan-300 duration-500'>{content[originalIndex].header2}</span></h3>
+                            </div>
+                            <div className='w-full mt-2 sm:mb-8'>
+                                <p className='ml-4  text-left'>
+                                    {content[originalIndex].body}
+                                </p>
+                            </div>
+                            <div className='w-full flex flex-row justify-evenly mt-2 sm:mb-8 sm:text-[1.1rem]'>
+                                <span className=' ml-4 w-[10%] text-2xl mt-1'><BsFillArrowRightCircleFill className='text-cyan-400 sm:text-[2rem] sm:relative sm:bottom-[15%]' /></span>
+                                <p className='w-[90%] text-left'>{content[originalIndex].para1}</p>
+                            </div>
+                            <div className='w-full flex flex-row justify-evenly sm:text-[1.1rem]'>
+                                <span className=' ml-4 w-[10%] text-2xl sm:text-3xl mt-1'><BsFillArrowRightCircleFill className='text-cyan-400 sm:text-[2rem] sm:relative sm:bottom-[15%]' /></span>
+                                <p className='w-[90%] text-left'>{content[originalIndex].para2}</p>
+                            </div>
+                        </div>
+                        <div className='hidden sm:w-[92%] my-auto sm:mx-auto sm:h-[6vh]  sm:flex sm:flex-row sm:justify-center duration-500'>
+                            
+                            <button  value='0' style={slide1 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass1(e)}   id='btn1' className=' outline-none  duration-300 sm:before:content-["1"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>
+                            <button style={slide2 ? {height: "6px", marginBottom: "5px"} : null } value='1' onClick={(e) => AddClass2(e)}  id='btn2' className='outline-none duration-300 sm:before:content-["2"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>
+                            <button style={slide3 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass3(e)} value='2' id='btn3' className=' outline-none duration-300 sm:before:content-["3"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>
+                            <button style={slide4 ? {height: "6px", marginBottom: "5px"} : null }  onClick={(e) => AddClass4(e)} value='3' id='btn4' className=' outline-none duration-300 sm:before:content-["4"] sm:before:font-semibold sm:before:text-[0.8rem] sm:before:relative sm:before:w-[100%] sm:before:text-left sm:before:-top-[20px] sm:w-[25%] sm:flex sm:flex-row sm:bg-cyan-400 sm:h-[1.5px] '></button>   
+                        </div>
                 </div>
                 <div className=' rounded-sm sm:w-[100%] w-[100%]   h-[60vh] mx-auto sm:relative sm:right-[-10%] sm:mt-8 mt-8'>
                     {slide1 && <video 
@@ -175,7 +180,7 @@ const MEngine = () => {
                         muted 
                         controlsList="hidden"
                         loop
-                        className='rounded-sm w-[100%] h-[60vh] transition'  
+                        className='rounded-sm w-[100%] h-[60vh] transition sm:duration-500'  
                         
                         src={require("../image/whyChooseUs/CHAT.mp4")}
                     />}
@@ -184,7 +189,7 @@ const MEngine = () => {
                         muted 
                         controlsList="hidden"
                         loop
-                        className='rounded-sm w-[100%] h-[60vh] transition'  
+                        className='rounded-sm w-[100%] h-[60vh] transition sm:duration-500'  
                         
                         src={require("../image/whyChooseUs/ONBOARDING.mp4")}
                     />}
@@ -202,7 +207,7 @@ const MEngine = () => {
                         muted 
                         controlsList="hidden"
                         loop
-                        className='w-[100%] h-[60vh] transition rounded-sm'  
+                        className='w-[100%] h-[60vh] transition rounded-sm sm:duration-500'  
                         
                         src={require("../image/whyChooseUs/COMPLIANCE.mp4")}
                     />}
