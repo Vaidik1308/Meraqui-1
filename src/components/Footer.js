@@ -69,7 +69,7 @@ const Footer = () => {
                         <div className='ml-2 flex justify-center  border-b-[3px] border-cyan-500 w-[75%]'>
                             <h3 className='w-fit  sm:mr-2   sm:text-[1.3rem] font-poppins font-[400]'>Services</h3>
                         </div>
-                        <ul className="text-[0.8rem] mt-[35px] flex flex-col items-center  font-poppins font-[300]  sm:text-left sm:ml-4 sm:h-[24vh] sm:mt-[40px]">
+                        <ul className="text-[0.8rem] mt-[35px] flex flex-col  font-poppins font-[300]  sm:text-left sm:ml-4 sm:h-[24vh] sm:mt-[40px]">
                         <li className='sm:mb-[25px] mb-[30px]'><Link to="/services/neemNaps">NATS</Link></li>
                             <li className='sm:mb-4 mb-[30px]' ><Link to="/services/warehousing">3PL WAREHOUSING</Link></li>
                             <li className='sm:mb-4 mb-[30px]'><Link to="/services/workforce">GIG</Link></li>
