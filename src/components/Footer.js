@@ -2,7 +2,7 @@ import React from 'react'
 import {FaLinkedin} from 'react-icons/fa';
 import {AiTwotoneMail} from 'react-icons/ai';
 import {BiMapAlt} from 'react-icons/bi';
-import { BiConversation } from 'react-icons/bi';
+// import { BiConversation } from 'react-icons/bi';
 import { BiPhoneCall } from 'react-icons/bi';
 import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
@@ -10,14 +10,14 @@ import '../App.css'
 
 const Footer = () => {
   return (
-    <footer className=' bg-cyan-100 w-[100%] h-fill pb-8 sm:pb-16 flex flex-col  sm:pt-8 sm:h-[95vh] font-poppins '>
+    <footer className=' bg-cyan-100 w-[100%] h-fill pb-2 sm:pb-16 flex flex-col  sm:pt-8 sm:h-[95vh] font-poppins '>
          <div className='flex flex-col sm:flex-row sm:w-[80%]  sm:mx-auto sm:justify-center sm:mb-8 sm:pb-8'> 
             <div className='w-full sm:flex sm:flex-row sm:justify-around sm:w-[53%]'>
                 <div className=' flex flex-col w-full sm:w-[100%] sm:justify-between sm:h-[35vh] sm:text-left'>
-                    <div className='w-[100%] flex justify-center mt-2 sm:w-[50%] '>
-                        <img className=' w-[100%] flex justify-center sm:w-[60%]' src={require('../image/logo.png')} alt="" />
+                    <div className='w-[80%]  flex justify-center mt-4 sm:w-[65%] '>
+                        <img className='   w-[60%] flex justify-center sm:w-[50%]' src={require('../image/logo.png')} alt="" />
                     </div>
-                    <div className='flex flex-row justify-center w-full mt-4 sm:w-[66%] sm:mt-12 px-4'>
+                    <div className='flex flex-row justify-center w-full mt-4 sm:w-[66%] sm:mt-8 px-4'>
                         <span className='sm:w-[15%] text-[2rem] text-cyan-400 mr-2 sm:text-[2.8rem] sm:h-fill'><BiMapAlt/></span>
                         <p className=" max-w-full sm:w-[75%] text-left sm:leading-[1.8] font-poppins font-[400]  sm:flex sm:justify-center sm:flex-col">
                             Meraqui Ventures Pvt. Ltd., 
