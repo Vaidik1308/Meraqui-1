@@ -16,7 +16,7 @@ const About = () => {
             <p className='text-left sm:w-[75%] font-poppins font-[300]'>
               We are a SaaS-enabled workforce management platform specializing in employee lifecycle management, job and requisition management, and training and interview assessments.
               <br></br> <br></br>We link our expertise with your business demands and proactively begin HR procedures to meet your needs, harnessing the power of Artificial Intelligence.
-              <br></br><br></br> We have a robust pan-India presence in 22 states and 55 cities and are aiming to grow significantly in the times to come.
+              <br></br><br></br>We have a robust pan-India presence in 23 states + 3 Union Territories and 120+ cities and are aiming to grow significantly in the times to come.
               <br></br><br></br>
             </p>
           </div>
